@@ -5,6 +5,17 @@
  * MIT Licensed.
  */
 
+start: function(){
+    setInterval(() => {
+        document.querySelector("body").classList.toggle("MMM-AntiScreenBurnIn");
+    }, 6 * 60 * 60 * 1000); // every 6 hours
+},
+
+getStyles: function(){
+    return ["MMM-AntiScreenBurnIn.css"];
+}
+
+/*
 Module.register("MMM-Snow",{
 
 	defaults: {
@@ -45,3 +56,4 @@ Module.register("MMM-Snow",{
 	}
 
 });
+*/
