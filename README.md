@@ -1,5 +1,5 @@
-# Module: MMM-Snow
-Inspired by [NHubbard's Snow Plugin](https://github.com/nhubbard/MagicPlugins/tree/master/snow) I created a little more realistic snow plugin to improve your winter experience!
+# Module: MMM-AntiScreenBurnIn
+Based on MMM-Snow and Anti-Screen-Burn-In example from Strawberry 3.141
 
 ![](.github/example.png)
 
@@ -12,7 +12,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ````
-git clone https://github.com/MichMich/MMM-Snow.git
+git clone https://github.com/ChicJr/MMM-AntiScreenBurnIn.git
 ````
 
 Configure the module in your `config.js` file.
@@ -25,7 +25,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
 	{
-		module: 'MMM-Snow',
+		module: 'MMM-AntiScreenBurnIn',
 		position: 'fullscreen_above',
 		config: {
 			// See 'Configuration options' for more information.
